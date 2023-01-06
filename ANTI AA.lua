@@ -49,5 +49,5 @@ aimlock:NewButton("ANTI LOCK keybind{Y}", "ButtonInfo", function()
     end)
 
 aimlock:NewKeybind("Toggle GUI", Enum.KeyCode.LeftAlt, function()
-    Library:ToggleUI("V")
+    Library:ToggleUI(LeftAlt)
     end)
