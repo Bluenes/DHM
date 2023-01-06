@@ -93,7 +93,7 @@
 --
 --LIBARY--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Luke Better 🤷", "Synapse")
+local Window = Library.CreateLib("Luke Better 🤷", "Serpent")
 
 
 local AIMLOCKS = Window:NewTab("Locks🥱")
