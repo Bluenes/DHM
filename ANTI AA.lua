@@ -47,6 +47,6 @@ game:GetService('UserInputService').InputBegan:Connect(function(Key)
 end)
 end)
 
-aimlock:NewKeybind("Toggle GUI", Enum.KeyCode.LeftAlt, function()
-    Library:ToggleUI(LeftAlt)
+aimlock:NewKeybind("toggle ui", "makes the ui go away", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI(LeftAlt)
 end)
