@@ -121,7 +121,7 @@ local easy = EASY:NewSection("MORE SUTFF HERE")
 
 
 local COOL = Window:NewTab("credits")
-local cool = COOL:NewSection("CREDITS TO WHITEMOON AND VENO!")
+local cool = COOL:NewSection("All skidded anyway idc Lack#6666")
 
 
 
