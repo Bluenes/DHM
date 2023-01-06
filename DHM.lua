@@ -93,30 +93,30 @@
 --
 --LIBARY--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("I RAPE CHILDREN", "Synapse")
+local Window = Library.CreateLib("Luke Better 🤷", "Synapse")
 
 
-local AIMLOCKS = Window:NewTab("aimlock and silent aim")
+local AIMLOCKS = Window:NewTab("Locks🥱")
 local aimlock = AIMLOCKS:NewSection("AIMLCOK HERE!")
 
 
-local MOVEMENT = Window:NewTab("movment")
+local MOVEMENT = Window:NewTab("Movement")
 local dad  = MOVEMENT:NewSection("MOVMENT/SPEED!")
 
 
-local ESP = Window:NewTab("esp")
-local esp = ESP:NewSection("ESP!")
+local ESP = Window:NewTab("Esp")
+local esp = ESP:NewSection("see through walls n shi")
 
 
 local PLAYER = Window:NewTab("player")
 local player = PLAYER:NewSection("PLAYER")
 
 
-local FUN = Window:NewTab("fun stuff!")
+local FUN = Window:NewTab("Funny")
 local fun = FUN:NewSection("FUN STUFF!")
 
 
-local EASY = Window:NewTab("more")
+local EASY = Window:NewTab("More")
 local easy = EASY:NewSection("MORE SUTFF HERE")
 
 
@@ -195,7 +195,7 @@ local Players = game:GetService("Players")
 
 -- // Vars
 local LocalPlayer = Players.LocalPlayer
-local accomidationfactor = .1213
+local accomidationfactor = 0.12567724521
 
 -- // Silent Aim Module
 local SilentAim = loadstring(game:HttpGet("https://pastebin.com/raw/2f0mGbMP"))()
@@ -230,6 +230,7 @@ end)
 
 -- // Revert
 setreadonly(mt, true)
+getgenv().ValiantAimHacks.FOV = 50
 end)
 
 
