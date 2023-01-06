@@ -12,7 +12,7 @@ local aimlock = AIMLOCKS:NewSection("AA")
 
 
 
-easy:NewButton("ANTI LOCK keybind{Y}", "ButtonInfo", function()
+aimlock:NewButton("ANTI LOCK keybind{Y}", "ButtonInfo", function()
     local Toggled = true
     local KeyCode = 'y'
     local hip = 2.00
@@ -46,4 +46,8 @@ easy:NewButton("ANTI LOCK keybind{Y}", "ButtonInfo", function()
             end
         end
     end)
+    end)
+
+aimlock:NewKeybind("Toggle GUI", Enum.KeyCode.LeftAlt, function()
+    Library:ToggleUI("V")
     end)
